@@ -1,0 +1,13 @@
+
+{{#each responseFromAPI}}
+
+<div class="imperial" >
+  <img src="{{this.image_url}}" alt="imperial" max-height="100px">
+  <h5 class="card-title">{{this.name}}{{this.tagline}}</h5>
+  <p class="card-text">{{this.description}}</p>
+  <p class="card-text">{{this.food_pairing}}</p>
+  <p class="card-text">{{this.brewer_tips}}</p>
+</div>
+
+{{/each}}
+
