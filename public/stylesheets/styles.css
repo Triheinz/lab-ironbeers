@@ -38,15 +38,23 @@ header{
   background-color:#bfbfbf ;
   border:none;
   width: 18rem;
+  align-items: center;
 }
 .card img{
-  width: 80px;
-  height: 300px;
+  width:60px;
+  height: 280px;
   object-fit: cover;
+
 }
 .beers{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 10px;
+}
 
-
+.random{
+  display: flex;
+  flex-direction: row;
 }

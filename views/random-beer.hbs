@@ -1,6 +1,7 @@
-
+<div class="random">
 {{#each responseFromAPI}}
   {{> beerpartial}}
+  <div class="card-body">
     <p>Brewer tips: {{this.brewers_tips}}</p>
     <ol>
     <p>Food pairing: {{#each this.food_pairing}}</p>
@@ -8,4 +9,6 @@
     {{/each}}
     </ol>
   {{/each}}
+  </div>
+</div>
 
